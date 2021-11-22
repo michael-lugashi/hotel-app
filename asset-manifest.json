@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hotel-app/static/css/main.6186c4b7.chunk.css",
-    "main.js": "/hotel-app/static/js/main.307a57a2.chunk.js",
-    "main.js.map": "/hotel-app/static/js/main.307a57a2.chunk.js.map",
+    "main.js": "/hotel-app/static/js/main.567c66fe.chunk.js",
+    "main.js.map": "/hotel-app/static/js/main.567c66fe.chunk.js.map",
     "runtime-main.js": "/hotel-app/static/js/runtime-main.b6d745c3.js",
     "runtime-main.js.map": "/hotel-app/static/js/runtime-main.b6d745c3.js.map",
     "static/js/2.4dea725b.chunk.js": "/hotel-app/static/js/2.4dea725b.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.b6d745c3.js",
     "static/js/2.4dea725b.chunk.js",
     "static/css/main.6186c4b7.chunk.css",
-    "static/js/main.307a57a2.chunk.js"
+    "static/js/main.567c66fe.chunk.js"
   ]
 }
