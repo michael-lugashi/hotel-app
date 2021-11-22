@@ -1,0 +1,42 @@
+.homepage {
+ width: 100vw;
+ max-width: 1000px;
+ min-height: 100vh;
+ margin: auto;
+ margin-top: 0;
+ margin-bottom: 0;
+ background-color: tan;
+ color: whitesmoke;
+}
+.hompageTitle {
+ padding-top: 10px;
+ text-align: center;
+ margin-top: 0;
+}
+.hotelImage {
+ width: 160px;
+ display: inline;
+ border-radius: 30px;
+ height: 120px;
+}
+
+.hotelGallery {
+ display: flex;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+}
+.hotelCard {
+ background-image: url('../assets/cardBackground.jpg');
+ background-size: 160px 160px;
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ width: 160px;
+ margin-bottom: 15px;
+ border-radius: 10px;
+ border-top-left-radius: 30px;
+ border-top-right-radius: 30px;
+ color: rgb(177, 150, 114);
+ font-weight: bold;
+ font-size: 20px;
+}
