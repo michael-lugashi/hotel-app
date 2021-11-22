@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import data from './core/model/hotelData';
 import HotelGallery from './core/homepage/hotelsGallery';
 import HotelPage from './core/hotelPage/hotelPage';
+import './styles/index.css'
 // import kebabCase from './core/helpers/kababCase';
 // Link
 
@@ -15,13 +16,12 @@ class App extends React.Component {
  render() {
   return (
    <Router>
-    <div>
+ 
      <Routes>
       <Route exect path="/homepage" element={<HotelGallery hotelsData={data} />} />
       <Route exect path="/hotelName" element={<HotelPage/>} />
 
      </Routes>
-    </div>
    </Router>
   );
  }
