@@ -10,7 +10,7 @@ class HotelGallery extends React.Component {
     <div className="hotelGallery">
      {console.log(this.props.hotelsData)}
      {this.props.hotelsData.map((hotelData) => {
-      return <HotelCard img={hotelData.img} hotelName={hotelData.name}/>;
+      return <HotelCard key={hotelData.name} img={hotelData.img} hotelName={hotelData.name}/>;
      })}
     </div>
    </div>
