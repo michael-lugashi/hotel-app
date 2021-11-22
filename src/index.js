@@ -9,9 +9,6 @@ import kebabCase from './core/helpers/kababCase';
 // Link
 
 class App extends React.Component {
- //  constructor(props) {
- //   super(props);
- //  }
 
  render() {
   return (
@@ -23,7 +20,7 @@ class App extends React.Component {
        <Route
         key={hotelData.name + 'Link'}
         exect
-        path={'/'+encodeURI(kebabCase(hotelData.name))}
+        path={'/' + encodeURI(kebabCase(hotelData.name))}
         element={<HotelPage key={hotelData.name} hotelData={hotelData} />}
        />
       );
