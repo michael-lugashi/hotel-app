@@ -15,12 +15,12 @@ class HotelPage extends React.Component {
  }
  render() {
   return (
-   <div>
+   <div className="hotelPage">
     <h1 className="hotelPageTitle">{this.name}</h1>
-    <img alt='hotel' src={this.img}/>
+    <img className="hotelPageImage" alt='hotel' src={this.img}/>
     <p>Look at this beautiful hotel!</p>
-    <div>Address: {this.address}</div>
-    <button onClick={()=>{this.callNumber()}}>Call Now!</button>
+    <div className="address" >Address: <span style={{fontFamily: 'sans-serif'}}>{this.address}</span></div>
+    <button className='callBtn' onClick={()=>{this.callNumber()}}>Call Now!</button>
    </div>
   );
  }

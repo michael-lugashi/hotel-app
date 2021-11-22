@@ -1,0 +1,40 @@
+.hotelPage {
+ min-height: 100vh;
+ max-width: 1000px;
+ background-color: tan;
+ padding-left: 5vw;
+ color: whitesmoke;
+ margin: auto;
+}
+
+.hotelPageTitle {
+ margin-top: 0;
+ padding-top: 10px;
+ text-align: center;
+}
+.hotelPageImage {
+ margin-bottom: -15px;
+ border: solid;
+ width: 75vw;
+ max-width: 500px;
+}
+
+.address {
+ font-size: 25px;
+ margin-top: 40px;
+}
+
+.callBtn {
+ margin-top: 10px;
+ background-image: url('../assets/cardBackground.jpg');
+ background-size: 160px 160px;
+ color: tan;
+ font-size: 40px;
+ font-weight: bold;
+ border-radius: 20px;
+ margin-bottom: 20px;
+}
+.callBtn:active {
+    background-color: whitesmoke;
+    background-image: none;
+}
