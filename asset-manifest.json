@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/hotel-app/static/css/main.6186c4b7.chunk.css",
+    "main.js": "/hotel-app/static/js/main.ffaec254.chunk.js",
+    "main.js.map": "/hotel-app/static/js/main.ffaec254.chunk.js.map",
+    "runtime-main.js": "/hotel-app/static/js/runtime-main.b6d745c3.js",
+    "runtime-main.js.map": "/hotel-app/static/js/runtime-main.b6d745c3.js.map",
+    "static/js/2.4dea725b.chunk.js": "/hotel-app/static/js/2.4dea725b.chunk.js",
+    "static/js/2.4dea725b.chunk.js.map": "/hotel-app/static/js/2.4dea725b.chunk.js.map",
+    "index.html": "/hotel-app/index.html",
+    "static/css/main.6186c4b7.chunk.css.map": "/hotel-app/static/css/main.6186c4b7.chunk.css.map",
+    "static/js/2.4dea725b.chunk.js.LICENSE.txt": "/hotel-app/static/js/2.4dea725b.chunk.js.LICENSE.txt",
+    "static/media/hotelPage.css": "/hotel-app/static/media/cardBackground.2cc37a11.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6d745c3.js",
+    "static/js/2.4dea725b.chunk.js",
+    "static/css/main.6186c4b7.chunk.css",
+    "static/js/main.ffaec254.chunk.js"
+  ]
+}
