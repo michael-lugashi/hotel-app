@@ -6,10 +6,8 @@ import HotelGallery from './core/homepage/hotelsGallery';
 import HotelPage from './core/hotelPage/hotelPage';
 import './styles/index.css';
 import kebabCase from './core/helpers/kababCase';
-// Link
 
 class App extends React.Component {
-
  render() {
   return (
    <Router>

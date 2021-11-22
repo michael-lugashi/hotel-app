@@ -8,7 +8,6 @@ class HotelGallery extends React.Component {
    <div className="homepage">
     <h1 className="hompageTitle">Hotels</h1>
     <div className="hotelGallery">
-     {console.log(this.props.hotelsData)}
      {this.props.hotelsData.map((hotelData) => {
       return (
        <HotelCard
